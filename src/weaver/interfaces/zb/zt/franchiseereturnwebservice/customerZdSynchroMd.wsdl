@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://impl.webservice.itf.core.crm/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://webservice.itf.core.crm/" name="Order" targetNamespace="http://impl.webservice.itf.core.crm/">
+  <wsdl:import location="http://opstest.zhibang.com:8060/core/ws/crm/orderService/customerZdSynchroMd?wsdl=IOrderService.wsdl" namespace="http://webservice.itf.core.crm/">
+    </wsdl:import>
+  <wsdl:binding name="OrderSoapBinding" type="ns1:IOrderService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="priceSaveMd">
+      <soap:operation soapAction="priceSaveMd" style="document"/>
+      <wsdl:input name="priceSaveMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="priceSaveMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrderProgressInfoMd">
+      <soap:operation soapAction="OrderProgressInfoMd" style="document"/>
+      <wsdl:input name="OrderProgressInfoMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="OrderProgressInfoMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="curtainsOrderZdSynchroMd">
+      <soap:operation soapAction="curtainsOrderZdSynchroMd" style="document"/>
+      <wsdl:input name="curtainsOrderZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="curtainsOrderZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deliveryFeedbackMd">
+      <soap:operation soapAction="deliveryFeedbackMd" style="document"/>
+      <wsdl:input name="deliveryFeedbackMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deliveryFeedbackMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="curtainsConfigureZdSynchroMd">
+      <soap:operation soapAction="curtainsConfigureZdSynchroMd" style="document"/>
+      <wsdl:input name="curtainsConfigureZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="curtainsConfigureZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="curtainsUnitZdSynchroMd">
+      <soap:operation soapAction="curtainsUnitZdSynchroMd" style="document"/>
+      <wsdl:input name="curtainsUnitZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="curtainsUnitZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="orderApprovalStatusMd">
+      <soap:operation soapAction="orderApprovalStatusMd" style="document"/>
+      <wsdl:input name="orderApprovalStatusMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="orderApprovalStatusMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="orderStatusMd">
+      <soap:operation soapAction="orderStatusMd" style="document"/>
+      <wsdl:input name="orderStatusMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="orderStatusMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="noticeListMd">
+      <soap:operation soapAction="noticeListMd" style="document"/>
+      <wsdl:input name="noticeListMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="noticeListMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="noticeInfoByNoticeIdMd">
+      <soap:operation soapAction="noticeInfoByNoticeIdMd" style="document"/>
+      <wsdl:input name="noticeInfoByNoticeIdMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="noticeInfoByNoticeIdMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="itemShortagesMd">
+      <soap:operation soapAction="itemShortagesMd" style="document"/>
+      <wsdl:input name="itemShortagesMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="itemShortagesMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customerZdSynchroMd">
+      <soap:operation soapAction="customerZdSynchroMd" style="document"/>
+      <wsdl:input name="customerZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="customerZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="accountZdSynchroMd">
+      <soap:operation soapAction="accountZdSynchroMd" style="document"/>
+      <wsdl:input name="accountZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="accountZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="storeStopAcceptanceZdSynchroMd">
+      <soap:operation soapAction="storeStopAcceptanceZdSynchroMd" style="document"/>
+      <wsdl:input name="storeStopAcceptanceZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="storeStopAcceptanceZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="orderListByPhoneMd">
+      <soap:operation soapAction="orderListByPhoneMd" style="document"/>
+      <wsdl:input name="orderListByPhoneMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="orderListByPhoneMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shoppingCallbackMd">
+      <soap:operation soapAction="shoppingCallbackMd" style="document"/>
+      <wsdl:input name="shoppingCallbackMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="shoppingCallbackMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="orderProgressListByIdMd">
+      <soap:operation soapAction="orderProgressListByIdMd" style="document"/>
+      <wsdl:input name="orderProgressListByIdMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="orderProgressListByIdMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="orderZdSynchroMd">
+      <soap:operation soapAction="orderZdSynchroMd" style="document"/>
+      <wsdl:input name="orderZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="orderZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerZdSynchroMd">
+      <soap:operation soapAction="registerZdSynchroMd" style="document"/>
+      <wsdl:input name="registerZdSynchroMd">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="registerZdSynchroMdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Order">
+    <wsdl:port binding="tns:OrderSoapBinding" name="OrderServiceImplPort">
+      <soap:address location="http://opstest.zhibang.com:8060/core/ws/crm/orderService/customerZdSynchroMd"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

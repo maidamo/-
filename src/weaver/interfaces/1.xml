@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webservice.itf.core.crm/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <web:customerZdSynchroMd>
+            <arg>
+                <elements>
+                    <element>
+                        <accountNumber></accountNumber>
+                        <sourceid>20708</sourceid>
+                        <state>2</state>
+                        <remarks>111
+                        </remarks>
+                        <relevanceCode></relevanceCode>
+                    </element>
+                </elements>
+            </arg>
+        </web:customerZdSynchroMd>
+    </soapenv:Body>
+</soapenv:Envelope>
